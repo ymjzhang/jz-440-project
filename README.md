@@ -4,7 +4,7 @@ This repository includes an RNAseq dataset from Synovial fibroblast found at htt
 The script generates a figure showding the cell type distribution in this dataset 
 
 Data
-The dataset is from an RNAseq experiment. The data that is used to generate the figure is the metaData.csv file. 
+The dataset is from an RNAseq experiment as linked above. The data that is used to generate the figure is the metaData.csv file. 
 The metaData file include informations such as sampleID, status, label, cell_type, cell_subtype, nUMI, nGene, percent_mito, and pseudotime
 
 
