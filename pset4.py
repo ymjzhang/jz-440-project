@@ -3,7 +3,6 @@ import pandas as pd
 meta = pd.read_csv('metaData.csv')
 
 # filter the metadat to include only reads from donors with ra
-
 # first select out all donors 
 filtered = meta[meta['sampleID'].str.contains('donor')]
 
@@ -22,4 +21,4 @@ plt.bar(x, celltype_distribution.values())
 plt.xticks(rotation = -80)
 plt.ylabel('Count')
 plt.title('Cell Type Distributions in RA Donors')
-plt.savefig('pset4_Figure.png')
+plt.savefig('../figures/pset4_Figure.png')
